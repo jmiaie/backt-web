@@ -18,7 +18,7 @@ export function Comparison() {
             Stop Working Harder. Work Smarter.
           </h2>
           <p className="text-xl text-slate-400">
-            Traditional approaches vs. QuantEdge
+            Traditional approaches vs. BACKT
           </p>
         </div>
 

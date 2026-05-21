@@ -7,7 +7,7 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <TrendingUp className="h-8 w-8 text-emerald-500" />
-          <span className="text-2xl font-bold text-white">QuantEdge</span>
+          <span className="text-2xl font-bold text-white">BACKT</span>
         </Link>
 
         <nav className="hidden md:flex items-center space-x-8">

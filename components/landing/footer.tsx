@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <TrendingUp className="h-6 w-6 text-emerald-500" />
-              <span className="text-xl font-bold text-white">QuantEdge</span>
+              <span className="text-xl font-bold text-white">BACKT</span>
             </Link>
             <p className="text-slate-400 text-sm">
               Professional quantitative trading research platform.
@@ -82,7 +82,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-400 text-sm mb-4 md:mb-0">
-            © 2026 QuantEdge. All rights reserved.
+            © 2026 BACKT. All rights reserved.
           </p>
 
           <div className="flex space-x-4">

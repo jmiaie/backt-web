@@ -10,7 +10,7 @@ export function CTA() {
             Ready to Transform Your Trading Research?
           </h2>
           <p className="text-xl text-emerald-50 mb-8 max-w-2xl mx-auto">
-            Join professional quant researchers who use QuantEdge to validate,
+            Join professional quant researchers who use BACKT to validate,
             optimize, and deploy strategies with confidence.
           </p>
           <Link

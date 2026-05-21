@@ -6,7 +6,7 @@ const tiers = [
     name: "Free",
     price: "$0",
     period: "forever",
-    description: "Perfect for trying out QuantEdge",
+    description: "Perfect for trying out BACKT",
     features: [
       { name: "10 backtests/month", included: true },
       { name: "Walk-forward validation", included: true },

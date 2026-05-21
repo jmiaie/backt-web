@@ -1,6 +1,7 @@
 {
-  "name": "quantedge-web",
+  "name": "backt-web",
   "version": "0.1.0",
+  "description": "BACKT - Professional quantitative trading research platform with automated optimization and statistical validation",
   "private": true,
   "scripts": {
     "dev": "next dev",

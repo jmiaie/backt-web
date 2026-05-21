@@ -1,4 +1,4 @@
-# QuantEdge Frontend - Deployment Instructions
+# BACKT Frontend - Deployment Instructions
 
 ## ✅ Completed
 
@@ -8,22 +8,23 @@
 - [x] SEO metadata and OpenGraph configuration
 - [x] Responsive dark theme design
 - [x] Git repository initialized and committed to branch `claude/landing-page-fwiPh`
+- [x] Full rebrand from QuantEdge to BACKT
 
 ## 🚀 Next Steps (5-10 minutes)
 
 ### 1. Create GitHub Repository
 ```bash
 # On GitHub.com, create new public repository:
-# Name: quantedge-web
-# Description: QuantEdge: Professional quantitative trading research platform
+# Name: backt-web
+# Description: BACKT: Professional quantitative trading research platform
 # Public: Yes
 # Don't initialize with README (we already have one)
 ```
 
 ### 2. Push Code to GitHub
 ```bash
-cd /home/user/quantedge-web
-git remote add origin https://github.com/jmiaie/quantedge-web.git
+cd /home/user/backt-web
+git remote add origin https://github.com/jmiaie/backt-web.git
 git push -u origin claude/landing-page-fwiPh
 ```
 
@@ -31,7 +32,7 @@ git push -u origin claude/landing-page-fwiPh
 1. Go to https://vercel.com
 2. Sign in with GitHub
 3. Click "Add New Project"
-4. Import `jmiaie/quantedge-web`
+4. Import `jmiaie/backt-web`
 5. Framework: Next.js (auto-detected)
 6. Click "Deploy"
 
@@ -78,10 +79,14 @@ Redeploy after adding environment variables.
 3. Redirect URI: `https://your-project.supabase.co/auth/v1/callback`
 4. Copy Application ID and Secret to Supabase → Authentication → Providers → Azure
 
-### 7. Buy Domain (Optional but Recommended)
+### 7. Buy Domain (Recommended)
 **Recommended: Cloudflare**
-- quantedge.io: ~$32/year at Cloudflare
-- Setup: Vercel → Project Settings → Domains → Add quantedge.io
+- backt.io: ~$32/year at Cloudflare
+- Setup: Vercel → Project Settings → Domains → Add backt.io
+
+**Domain Status:**
+- backt.io: Appears available (blank page)
+- backt.ai: Connection refused (likely available)
 
 **Alternatives:**
 - Namecheap: ~$35/year
@@ -90,18 +95,21 @@ Redeploy after adding environment variables.
 ## 📊 Current Status
 
 **Local Development:**
-- Repository: `/home/user/quantedge-web`
+- Repository: `/home/user/backt-web`
 - Branch: `claude/landing-page-fwiPh`
-- Files: 27 files, 7,637 insertions
-- Commit: `847006c` - "feat: Create QuantEdge landing page with professional UI"
+- Files: 29 files rebranded
+- Latest commits:
+  - Rebrand from QuantEdge to BACKT
+  - Landing page and component creation
+  - Deployment guide
 
 **Live URL (after deploy):**
-- Vercel: `https://quantedge-web.vercel.app` (automatic)
-- Custom: `https://quantedge.io` (after domain setup)
+- Vercel: `https://backt-web.vercel.app` (automatic)
+- Custom: `https://backt.io` (after domain setup)
 
 ## 🎯 Timeline
 
-- **Week 1, Day 1-2:** ✅ Landing page (COMPLETE)
+- **Week 1, Day 1-2:** ✅ Landing page + rebrand (COMPLETE)
 - **Week 1, Day 3-4:** Deploy + OAuth setup (15-30 min)
 - **Week 1, Day 5-7:** Dashboard UI skeleton
 - **Week 2:** Backend API + basic backtest integration
@@ -118,14 +126,14 @@ Redeploy after adding environment variables.
 - SSL/HTTPS: Free (automatic)
 
 **Paid (Optional):**
-- Domain: $32/year (~$2.67/month)
+- Domain: $32/year (~$2.67/month) for backt.io
 - Backend API (Railway): $5/month credit + usage
 - **Total initial cost: ~$8/month**
 
 ## 🔍 Test the Landing Page Locally
 
 ```bash
-cd /home/user/quantedge-web
+cd /home/user/backt-web
 npm install
 npm run dev
 ```
@@ -139,3 +147,15 @@ Open http://localhost:3000 to see the landing page.
 - Never commit `.env.local` (already in `.gitignore`)
 - Supabase automatically handles user sessions and JWT tokens
 - Rate limiting will be added in Week 2 with Upstash Redis
+
+## 🎨 Brand Assets
+
+**Name:** BACKT (all caps)
+**Tagline:** "Stop guessing. Start optimizing."
+**Colors:**
+- Primary: Emerald (#10b981)
+- Accent: Cyan (#06b6d4)
+- Background: Slate (#0f172a)
+
+**Logo:** TrendingUp icon from Lucide React
+**Font:** Geist Sans (primary), Geist Mono (code)
