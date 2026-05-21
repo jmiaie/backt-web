@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { TrendingUp, Github, Twitter, Linkedin } from "lucide-react";
+import { TrendingUp, Mail, MessageCircle, Globe } from "lucide-react";
 
 export function Footer() {
   return (
@@ -86,14 +86,14 @@ export function Footer() {
           </p>
 
           <div className="flex space-x-4">
-            <Link href="https://github.com" className="text-slate-400 hover:text-white">
-              <Github className="h-5 w-5" />
+            <Link href="https://github.com/jmiaie/backt-web" className="text-slate-400 hover:text-white">
+              <Globe className="h-5 w-5" />
             </Link>
-            <Link href="https://twitter.com" className="text-slate-400 hover:text-white">
-              <Twitter className="h-5 w-5" />
+            <Link href="https://twitter.com/backt" className="text-slate-400 hover:text-white">
+              <MessageCircle className="h-5 w-5" />
             </Link>
-            <Link href="https://linkedin.com" className="text-slate-400 hover:text-white">
-              <Linkedin className="h-5 w-5" />
+            <Link href="mailto:support@backt.io" className="text-slate-400 hover:text-white">
+              <Mail className="h-5 w-5" />
             </Link>
           </div>
         </div>

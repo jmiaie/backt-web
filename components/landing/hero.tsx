@@ -23,7 +23,7 @@ export function Hero() {
         {/* Subheadline */}
         <p className="text-xl md:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto">
           Automated hyperparameter optimization, statistical validation, and regime-adaptive
-          strategies — professional tools that serious quant researchers can't live without.
+          strategies — professional tools that serious quant researchers can&apos;t live without.
         </p>
 
         {/* CTA Buttons */}
