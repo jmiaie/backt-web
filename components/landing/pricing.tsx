@@ -17,7 +17,7 @@ const tiers = [
       { name: "Regime detection", included: false },
     ],
     cta: "Start Free",
-    href: "/dashboard",
+    href: "mailto:hello@micapai.com?subject=BACKT Early Access Request",
     popular: false,
   },
   {
@@ -35,7 +35,7 @@ const tiers = [
       { name: "Portfolio optimization", included: false },
     ],
     cta: "Start Trial",
-    href: "/dashboard",
+    href: "mailto:hello@micapai.com?subject=BACKT Early Access Request",
     popular: true,
   },
   {
@@ -53,7 +53,7 @@ const tiers = [
       { name: "Priority support", included: true },
     ],
     cta: "Start Trial",
-    href: "/dashboard",
+    href: "mailto:hello@micapai.com?subject=BACKT Early Access Request",
     popular: false,
   },
 ];

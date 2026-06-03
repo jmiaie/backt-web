@@ -20,12 +20,12 @@ export function Header() {
           <Link href="/docs" className="text-slate-300 hover:text-white transition">
             Docs
           </Link>
-          <Link
-            href="/dashboard"
+          <a
+            href="mailto:hello@micapai.com?subject=BACKT Early Access Request"
             className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-medium transition"
           >
             Get Started
-          </Link>
+          </a>
         </nav>
       </div>
     </header>

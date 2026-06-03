@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0f172a"/>
+
+  <!-- Grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad1)"/>
+
+  <!-- Logo icon (trending up) -->
+  <g transform="translate(100, 200)">
+    <path d="M0 50L20 30L40 40L70 10" stroke="#10b981" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M50 10L70 10L70 30" stroke="#10b981" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- BACKT text -->
+  <text x="200" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="700" fill="#f1f5f9">BACKT</text>
+
+  <!-- Tagline -->
+  <text x="200" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#94a3b8">Professional Quantitative Trading Research</text>
+
+  <!-- Feature highlights -->
+  <g transform="translate(200, 400)">
+    <text y="0" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#10b981">✓ Bayesian Optimization</text>
+    <text y="45" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#10b981">✓ Statistical Validation</text>
+    <text y="90" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#10b981">✓ Regime Detection</text>
+  </g>
+
+  <!-- URL -->
+  <text x="200" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#64748b">backt.micapai.com</text>
+</svg>

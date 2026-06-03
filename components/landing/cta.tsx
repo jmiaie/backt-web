@@ -13,15 +13,15 @@ export function CTA() {
             Join professional quant researchers who use BACKT to validate,
             optimize, and deploy strategies with confidence.
           </p>
-          <Link
-            href="/dashboard"
+          <a
+            href="mailto:hello@micapai.com?subject=BACKT Early Access Request&body=I'm interested in joining the BACKT early access program."
             className="inline-flex items-center px-8 py-4 rounded-lg bg-white text-emerald-600 font-semibold text-lg hover:bg-slate-50 transition group"
           >
-            Start Free Trial
+            Join Waitlist
             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition" />
-          </Link>
+          </a>
           <p className="text-emerald-100 mt-4 text-sm">
-            No credit card required • 10 free backtests
+            Early access • Be first to try BACKT
           </p>
         </div>
       </div>

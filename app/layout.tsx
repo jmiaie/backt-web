@@ -13,21 +13,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://backt.micapai.com'),
   title: "BACKT - Professional Quantitative Trading Research Platform",
   description: "Automated optimization, statistical validation, and regime-adaptive strategies. Professional backtesting tools for serious quant researchers.",
   keywords: ["backtesting", "quantitative trading", "algorithmic trading", "quant research", "portfolio optimization"],
   authors: [{ name: "BACKT" }],
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: "BACKT - Professional Quant Research Platform",
     description: "Stop guessing. Start optimizing. Professional-grade backtesting and quantitative research tools.",
-    url: "https://backt.io",
+    url: "https://backt.micapai.com",
     siteName: "BACKT",
     type: "website",
+    images: [
+      {
+        url: '/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: 'BACKT - Professional Quantitative Trading Research',
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "BACKT - Professional Quant Research",
     description: "Automated optimization, statistical validation, regime detection for serious quant traders.",
+    images: ['/og-image.svg'],
   },
 };
 
