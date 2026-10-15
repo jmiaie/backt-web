@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     name: Test & Build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout code
@@ -45,7 +45,7 @@ jobs:
 
   deploy-preview:
     name: Deploy Preview
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test
     if: github.event_name == 'pull_request'
 
@@ -55,7 +55,7 @@ jobs:
 
   deploy-production:
     name: Deploy Production
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
